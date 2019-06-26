@@ -1,0 +1,84 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.title-block {
+  font-weight: 500;
+  margin-bottom: 60px;
+  color: #fff;
+  font-size: 36px;
+  line-height: 1;
+}
+
+button.btn.btn-primary {
+  color: #fff;
+  background-color: #247bdd;
+  border-color: #247bdd;
+  box-shadow: none;
+  border-radius: 0;
+  min-width: 200px;
+  padding: 14px 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-gray {
+  color: #333;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.divider-30 {
+  margin: 30px 0;
+}
+
+.divider {
+  font-size: 0;
+  line-height: 0;
+  height: 1px;
+  width: 100%;
+  background: #e1e1e1;
+}
+
+.form-group label {
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: none;
+  color: #231f20;
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 3px;
+}
+
+.form-group label {
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: none;
+  color: #231f20;
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 3px;
+}
+
+.form-control {
+  height: 35px;
+  padding: 3px 10px;
+  font-size: 13px;
+  border: 1px solid #c7c7c7;
+  color: #231f20;
+  width: 100%;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.form-group .add-elements {
+  padding: 0 10px;
+  border-color: #c7c7c7;
+}
