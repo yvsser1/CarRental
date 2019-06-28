@@ -31,7 +31,8 @@
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.2",
     "eslint-plugin-react": "7.12.4",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "file-loader": "2.0.0",
     "firebase": "^5.10.0",
     "fs-extra": "7.0.1",
@@ -45,6 +46,7 @@
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
+    "path": "^0.12.7",
     "pnp-webpack-plugin": "1.2.1",
     "postcss-flexbugs-fixes": "4.1.0",
     "postcss-loader": "3.0.0",
@@ -80,7 +82,7 @@
     "workbox-webpack-plugin": "3.6.3"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "node server.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
